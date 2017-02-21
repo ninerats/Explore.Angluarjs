@@ -1,0 +1,22 @@
+﻿<div class="jumbotron">
+    <h1>Angular Exploratory App</h1>
+    <p class="lead">Just hackng around on angularjs.</p>
+    
+</div>
+<div ng-app="exploreApp" ng-controller="homeCtrl" class="container">
+    <p>Today is {{ date }}.</p>
+   
+</div>
+
+<div>
+    <p>Links:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/angular/angular_modules.asp">https://www.w3schools.com/angular/angular_modules.asp</a></li>
+        <li><a href="https://scotch.io/tutorials/angular-routing-using-ui-router">https://scotch.io/tutorials/angular-routing-using-ui-router</a></li>
+    </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-resource.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+@Scripts.Render("~/bundles/app")
